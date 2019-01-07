@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+</head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+<body>
+<div class="container py-4">
+<form>
+  	<p>
+    	<label for="exampleInputEmail1">Nombre</label>
+    	<input type="text" class="form-control" id="nombre" aria-describedby="emailHelp" placeholder="Introduce tu nombre">
+	</p>
+    <p>
+    	<label for="exampleInputPassword1">Edad</label>
+    	<input type="text" class="form-control" id="edad" placeholder="Introduce tu edad">
+	</p>
+    <p>	
+    	<button type="button" class="btn btn-primary" onclick="caputar()">Añadir</button>
+    </p>
+  
+</form>
+</div>
+
+	<div class="container py-4">
+	<table class="table" id="tabla">
+		<thead class="thead-dark">
+			<tr>
+				<th>Nombre</th>
+				<th>Edad</th>
+			</tr>
+		</thead>
+		
+	</table>
+</div>
+</body>
+
+<script src="js/script.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</html>
